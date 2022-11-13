@@ -1,0 +1,25 @@
+{
+  "name": "@example/basics",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/netlify": "^1.2.1",
+    "@astrojs/svelte": "^1.0.2",
+    "@astrojs/tailwind": "^2.1.2",
+    "astro": "^1.6.7",
+    "feather-icons": "^4.29.0",
+    "svelte": "^3.46.4",
+    "tailwindcss": "^3.0.24"
+  },
+  "devDependencies": {
+    "svelte-feather-icons": "^4.0.0"
+  }
+}
