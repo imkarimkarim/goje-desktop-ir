@@ -13,5 +13,7 @@ import netlify from "@astrojs/netlify/functions";
 export default defineConfig({
   integrations: [tailwind(), svelte()],
   output: "server",
-  adapter: netlify()
+  adapter: netlify(),
+  site: 'https://imkarimkarim.github.io',
+  base: '/goje-desktop-ir',
 });
